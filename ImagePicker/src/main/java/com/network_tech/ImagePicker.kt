@@ -1,4 +1,4 @@
-package com.example.imagepicker
+package com.network_tech
 
 import android.app.Activity
 import android.content.Context
@@ -11,6 +11,9 @@ import android.provider.MediaStore
 import androidx.appcompat.app.AlertDialog
 import androidx.core.content.FileProvider
 import androidx.fragment.app.Fragment
+import com.NetworkTech.R
+import com.example.imagepicker.BuildConfig
+import com.example.imagepicker.Constants
 import java.io.File
 import java.io.IOException
 

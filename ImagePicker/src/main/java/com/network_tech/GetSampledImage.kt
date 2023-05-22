@@ -1,4 +1,4 @@
-package com.example.imagepicker
+package com.network_tech
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
