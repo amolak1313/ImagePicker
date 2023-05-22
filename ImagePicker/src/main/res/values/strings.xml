@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_utils_dialog_camera">Camera</string>
+    <string name="image_utils_dialog_gallery">Gallery</string>
+    <string name="image_utils_dialog_select_your_choice">Select your choice</string>
+</resources>
