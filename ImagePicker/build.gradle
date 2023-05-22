@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.NetworkTech'
+    namespace 'com.network_tech'
     compileSdk 33
 
     defaultConfig {

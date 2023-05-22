@@ -1,4 +1,4 @@
-package com.example.imagepicker
+package com.network_tech
 
 object Constants {
     const val REQ_CODE_CAMERA_IMAGE = 101

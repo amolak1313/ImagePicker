@@ -1,4 +1,4 @@
-package com.example.NetworkTech
+package com.network_tech
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

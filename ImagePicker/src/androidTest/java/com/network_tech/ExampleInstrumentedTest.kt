@@ -1,4 +1,4 @@
-package com.example.NetworkTech
+package com.network_tech
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
