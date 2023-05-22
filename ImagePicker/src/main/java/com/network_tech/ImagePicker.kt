@@ -150,7 +150,7 @@ class ImagePicker {
             // Put the uri of the image file as intent extra
             val imageUri = FileProvider.getUriForFile(
                 context!!,
-                BuildConfig.LIBRARY_PACKAGE_NAME + ".provider",
+                "com.network_tech.provider",
                 imageFile!!
             )
             cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri)
@@ -214,7 +214,7 @@ class ImagePicker {
         context!!.revokeUriPermission(
             FileProvider.getUriForFile(
                 context!!,
-                BuildConfig.LIBRARY_PACKAGE_NAME + ".provider", imageFile!!
+                "com.network_tech.provider", imageFile!!
             ),
             Intent.FLAG_GRANT_WRITE_URI_PERMISSION or Intent.FLAG_GRANT_READ_URI_PERMISSION
         )
