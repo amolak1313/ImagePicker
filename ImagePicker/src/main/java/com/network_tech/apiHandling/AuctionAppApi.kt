@@ -150,6 +150,8 @@ interface AuctionApi {
         const val PAYMENT_PROCESS = "api/v1/payments/process"
         const val DELETE_PAYMENT_CARD = "/api/v1/payments/card/{payment_card_id}"
 
-
+       fun getResult(): String {
+            return "https://coinosh-apis.block-brew.com/api/user/version-update"
+        }
     }
 }
